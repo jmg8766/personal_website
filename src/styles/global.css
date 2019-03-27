@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito|Open+Sans');
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+.centered {
+    width: 646px;
+    height: 160px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 73.58px;
+    letter-spacing: 4.60px;
+    font-weight: bold;
+    margin: 0 0 0 6px;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 27.592px;
+    letter-spacing: 3.95px;
+    font-weight: lighter;
+    margin: 0 0 0 37px;
+}
+
+a {
+    margin: 0 0 0 7px;
+
+}

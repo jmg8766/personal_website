@@ -2,19 +2,30 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
+
+import LinkedIn from "../images/linkedin-square.svg"
+import GitHub from "../images/github-square.svg"
+import Email from "../images/email.svg"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div className="centered">
+      <h1>Justin Gottshall</h1>
+      <p>
+        Freelance Full-Stack Developer
+        <a href="https://www.linkedin.com/in/justin-gottshall-25606b107" target="_blank">
+          <img src={LinkedIn} width="27.033px" height="27.033px" alt="LinkedIn icon"/>
+        </a>
+        <a href="https://github.com/jmg8766" target="_blank">
+          <img src={GitHub} width="27.033px" height="27.033px" alt="GitHub icon"/>
+        </a>
+        <a href="mailto:justin.gottshall@gmail.com">
+          <img src={Email} width="27.033px" height="27.033px" alt="email icon"/>
+        </a>
+      </p>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
 
