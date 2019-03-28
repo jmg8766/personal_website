@@ -24,6 +24,7 @@ img {
 }
 
 .centered h1 {
+    white-space: nowrap;
     font-family: 'Open Sans', sans-serif;
     font-size: 73.58px;
     letter-spacing: 4.60px;
@@ -56,4 +57,24 @@ img {
     margin: 0 0 0 2px;
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
+}
+
+@media only screen and (max-width: 700px) {
+    .centered {
+        width: 340px;
+    }
+    .centered h1 {
+        font-size: 38px;
+        letter-spacing: 2.36px;
+    }
+    .centered p {
+        font-size: 14px;
+        letter-spacing: 2.15px;
+        margin: 0 0 0 23px;
+    }
+    .centered div {
+        display: block;
+        width: 110px;
+        margin: 10px auto;
+    }
 }
