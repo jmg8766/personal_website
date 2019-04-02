@@ -5,6 +5,19 @@ module.exports = {
     author: `@jmg8766`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Open Sans`,
+          },
+          {
+            family: `Nunito`,
+          }
+        ]
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,

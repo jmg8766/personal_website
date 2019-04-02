@@ -31,7 +31,7 @@ const IconLink = ({ link, image, hoverImage, alt }) =>
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="Home" keywords={[`Justin Gottshall`, `Personal Website`, `Software Engineer`, `Full-Stack`, `Developer`, `Cleveland`]} />
     <div className="centered">
       <h1>Justin Gottshall</h1>
       <p>Freelance Full-Stack Developer</p>
