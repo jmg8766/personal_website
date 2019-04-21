@@ -1,13 +1,5 @@
-html {
-    box-sizing: border-box;
-}
-
-*, *:before, *:after {
-    box-sizing: inherit;
-}
-
-img {
-    max-width: 100%;
+a { 
+    color: black; 
 }
 
 .centered {
@@ -22,37 +14,41 @@ img {
 }
 
 .centered h1 {
-    white-space: nowrap;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 73.58px;
+    font-size: 80px;
     letter-spacing: 4.60px;
-    font-weight: bold;
     margin: 0 0 -5px 6px;
+    border-bottom: none;
 }
 
 .centered p {
-    font-family: 'Nunito', sans-serif;
-    font-size: 27.592px;
+    font-size: 27.1px;
     letter-spacing: 3.95px;
     font-weight: lighter;
-    margin: -4px 0 0 37px;
+    margin: -4px 0 0 60px;
     display: inline-block;
-    vertical-align: text-top;
+    height: 32px;
+    vertical-align: top;
 }
 
-.centered div {
+.icons {
     display: inline-block;
+    padding-top: 5px;
 }
 
-.centered img {
+.icons svg {
+    width: 27px;
+    height: 27px;
     margin: 0 0 0 7px;
     vertical-align: top;
     -webkit-transition: -webkit-transform .8s ease-in-out;
     transition: transform .8s ease-in-out;
 }
 
-.centered img:hover {
+.icons svg:hover {
     margin: 0 0 0 2px;
+    width: 32px;
+    height: 32px;
+    color: #00b894;
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
 }

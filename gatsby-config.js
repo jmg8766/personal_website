@@ -6,16 +6,16 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+      }
+    },
+    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: "UA-137251873-1"
       }
-    },
-    {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [{ family: `Open Sans` }, { family: `Nunito`, }],
-      },
     },
     `gatsby-plugin-react-helmet`,
     {
