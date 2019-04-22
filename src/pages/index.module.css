@@ -56,15 +56,17 @@ a {
 @media only screen and (max-width: 700px) {
     .centered {
         width: 340px;
+        text-align: center;
     }
     .centered h1 {
         font-size: 38px;
         letter-spacing: 2.36px;
+        margin: 0;
     }
     .centered p {
-        font-size: 14px;
+        font-size: 18px;
         letter-spacing: 2.15px;
-        margin: 0 0 0 23px;
+        margin: 0;
     }
     .centered div {
         display: block;
