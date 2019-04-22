@@ -3,6 +3,10 @@ import SEO from "../components/seo"
 
 export default ({ children }) =>
   <main>
-    <SEO title="Home" keywords={[`Justin Gottshall`, `Personal Website`, `Software Engineer`, `Full-Stack`, `Developer`, `Cleveland`]} />
+    <SEO 
+      title="Home" 
+      description="Full-Stack Developer living in Cleveland, OH. Currently accepting new clients!" 
+      keywords={[`Justin Gottshall`, `Personal Website`, `Software Engineer`, `Full-Stack`, `Developer`, `Cleveland`]} 
+    />
     {children}
   </main>
