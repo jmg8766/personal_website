@@ -1,0 +1,11 @@
+[[redirects]]
+    from = "https://www.justingottshall.com/*"
+    to = "https://www.jgottshall.com/:splat 301!"
+    status = 301
+    force = true
+
+[[redirects]]
+    from = "https://justingottshall.com/*"
+    to = "https://www.jgottshall.com/:splat 301!"
+    status = 301
+    force = true

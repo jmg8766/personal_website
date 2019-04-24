@@ -29,8 +29,8 @@ module.exports = {
         trackingId: "UA-137251873-1"
       }
     },
-    `gatsby-plugin-netlify`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-offline`,
+    `gatsby-plugin-netlify`,
   ],
 }
