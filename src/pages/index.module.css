@@ -1,5 +1,9 @@
-a { 
-    color: black; 
+a {
+    color: black;
+}
+
+.fullViewHeight {
+    height: 100vh;
 }
 
 .centered {
@@ -11,6 +15,7 @@ a {
     left: 0;
     right: 0;
     margin: auto;
+    animation: slideInFromLeft 1s;
 }
 
 .centered h1 {
@@ -40,7 +45,6 @@ a {
     height: 27px;
     margin: 0 0 0 7px;
     vertical-align: top;
-    -webkit-transition: -webkit-transform .8s ease-in-out;
     transition: transform .8s ease-in-out;
 }
 
@@ -49,8 +53,34 @@ a {
     width: 32px;
     height: 32px;
     color: #00b894;
-    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
+}
+
+.arrow {
+    position: relative;
+    top: 90vh;
+    left: 50%;
+    margin-left: -30px;
+    width: 60px;
+    height: 60px;
+    animation: fadeIn 2s, bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-50px); }
+    60% { transform: translateY(-25px); }
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes slideInFromLeft {
+    0% { transform: translateX(-100vw); }
+    100% { transform: translateX(0); }
 }
 
 @media only screen and (max-width: 700px) {
