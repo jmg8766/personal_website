@@ -21,10 +21,6 @@ export default () => (
           </a>
         </div>
       </div>
-      <FaAngleDown className={styles.arrow}/>
-    </div>
-    <div className={styles.fullViewHeight}>
-      <h1>About</h1>
     </div>
   </Layout>
 )
